@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
-function App() {
+export const App = () => {
 	const [categories, setCategories] = useState(["Dragon Ball Z"]);
 
 	return (
@@ -18,5 +18,3 @@ function App() {
 		</Fragment>
 	);
 }
-
-export default App;
